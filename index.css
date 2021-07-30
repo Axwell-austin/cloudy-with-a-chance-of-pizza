@@ -55,6 +55,26 @@ a :hover{
 div{
     border: 2px dotted red;
 }
+body{
+    background-color: #D05520;
+    color: black;
+}
+#start{
+    text-align: center;
+    margin-top: 30px;
+}
+#start img{
+    border-radius: 100%;
+}
 #first-line{
     display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
+}
+#second-line{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
 }
