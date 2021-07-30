@@ -1,0 +1,14 @@
+#landingpage{
+    background-image: url(./Assets/home1.jpg);
+    background-size: cover;
+}
+.gallery h1{
+ font-size: 25px; 
+ color: white;  
+}
+#landingpage h1{
+    color: white;
+}
+#landingpage p{
+    
+}
