@@ -1,9 +1,11 @@
 #landingpage{
-    background-image: url(./Assets/home1.jpg);
+    background-image: url(./Assets/pizza-background.jpg);
     background-size: cover;
+    height: 800px;
 }
 .pizzalogo{
     margin-left: 50px;
+    margin-top: 20px;
 }
 #landingpage p{
     color: #9f642e;
@@ -18,22 +20,36 @@ color: white;
  }
  .paragraph{
      color: #9f642e;
+     margin-top: 20px;
  }
  .paragraph h2{
      margin-left: 155px;
+     font-size: 35px;
  }
  .paragraph h3{
      margin-left: 80px;
      font-size: 35px;
  }
  .paragraph h4{
-     margin-left: 130px;
+     margin-left: 120px;
      font-size: 35px;
  }
 .gallery h1{
  font-size: 25px; 
  color: white; 
  font-style: italic; 
+}
+.gallery{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a :hover{
+    color: white;
+    font-size:30px;
 }
 
 div{
