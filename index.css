@@ -2,13 +2,40 @@
     background-image: url(./Assets/home1.jpg);
     background-size: cover;
 }
-.gallery h1{
- font-size: 25px; 
- color: white;  
-}
-#landingpage h1{
-    color: white;
+.pizzalogo{
+    margin-left: 50px;
 }
 #landingpage p{
-    
+    color: #9f642e;
+     font-size: 30px;
+ }
+ .header h1{
+margin-left: 30px;
+color: white;
+ }
+ .paragraph h1{
+     margin-left: 60px;
+ }
+ .paragraph{
+     color: #9f642e;
+ }
+ .paragraph h2{
+     margin-left: 155px;
+ }
+ .paragraph h3{
+     margin-left: 80px;
+     font-size: 35px;
+ }
+ .paragraph h4{
+     margin-left: 130px;
+     font-size: 35px;
+ }
+.gallery h1{
+ font-size: 25px; 
+ color: white; 
+ font-style: italic; 
+}
+
+div{
+    border: 2px dotted red;
 }
