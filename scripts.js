@@ -28,5 +28,8 @@ function getSize() {
       "" + "" + "Keep Shopping with us."
       );
       /*location details*/
-    
+    var location = prompt("Please pin your location of delivery");
+    if (location !=="") {
+        alert("Pay ksh 100, and your order will be on its way.")
+    }
   }
