@@ -20,7 +20,7 @@
                       <div id="type">
                           <label for="pizzaType">Type</label>
                           <select class="browser-default custom-select" id="pizzatype"></select>
-                          <option value="select"></option>
+                          <option label="choose"></option>
                           <option label="Veggie Pizza"></option>
                           <option label="Pepperoni Pizza"></option>
                           <option label="Hawaaian Pizza"></option>
@@ -32,12 +32,47 @@
                   <div class="form-group">
                       <div id="size">
                           <label for="PizzaSize">Size</label>
-                    <select class="browser-default custom-select" id="pizzatype"></select>
-                      <option value="select"></option>
-                      <option label="Small - Ksh 500" value="500"></option>
-                      <option label="Medium - Ksh 800" value="800"></option>
-                      <option label="Large - Ksh 1200" value="1200"></option>
+                          <select class="browser-default custom-select" id="pizzatype"></select>
+                          <option label="choose"></option>
+                          <option label="Small - Ksh 500" value="500"></option>
+                          <option label="Medium - Ksh 800" value="800"></option>
+                          <option label="Large - Ksh 1200" value="1200"></option>
+                      </div>
                   </div>
+                <div class="form-group">
+                    <div id="crust">
+                        <label for="pizzaCrust">Crust</label>
+                        <select class="browser-default custom-select" id="pizzaCrust">
+                            <option label="choose"></option>
+                            <option label="Neopolitan crusr -ksh 250" value="250"></option>
+                            <option label="Thick crust -ksh 200" value="200"></option>
+                            <option label="Chicago deep fish crust -ksh 170" value="170"></option>
+                            <option label="Sicilian style crust -ksh 150" value="150"></option>
+                            <option label="Thin crust -ksh 120" value="120"></option>
+                        </select>
+                    </div>
+                </div>
+                <div class=" form-group">
+                    <div id="toppings">
+                        <label for="pizzaTopping">Toppings</label>
+                        <select class="browser-default custom-select" id="pizzaTopping">
+                            <option label="choose"></option>
+                            <option label="Mushrooms -ksh.120" value="120"></option>
+                            <option label="Sausage -ksh.120" value="120"></option>
+                            <option label="Bacon -ksh.100" value="100"></option>
+                            <option label="Green Pepper, corriander Leaves -ksh.100" value="100"></option>
+                            <option label="Extra Cheese-ksh.100" value="100"></option>
+                            <option label="Onions -ksh.100" value="100"></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div id="number">
+                        <label for="quantity">Quantity</label>
+                        <input class="form-control" type="number" name="pizza" id="quantity" placeholder="0"
+                            max="" min="0">
+                    </div>
+                </div>
               </div>
           </form>
       </div>
