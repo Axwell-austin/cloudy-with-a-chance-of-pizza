@@ -20,12 +20,12 @@ function getSize() {
   function totalAmount() {
       var totals = (getSize() + getCrust() + getTopping()) * getQuantity();
       alert(
-      "Your order of" +
-      getQuantity("") +
+      "Your order of"  +
+       getQuantity ("") +
       "Pizza," +
-      "" + "total to Shillings " +
-      totals +
-      "" + "" + "Keep Shopping with us."
+      "" +  "total to Shillings " + 
+       totals +
+      "" + ""+ ".Keep Shopping with us."
       );
       /*location details*/
     var location = prompt("Please pin your location of delivery");

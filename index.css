@@ -54,10 +54,6 @@ color: white;
 a{
     color: white;
 }
-
-div{
-    border: 2px dotted red;
-}
 body{
     background-color: #D05520;
     color: black;
@@ -101,27 +97,11 @@ border-radius: 100%;;
     display: flex;
     align-items: column;
 }
-#btn {
-    margin-left: 55%;
-    background-color: white;
-    border-radius: 12px;
-    font-size: 30px;
-}
 .card-body{
     width: 700px;
-    margin-left: 100px;
+    margin-left: 400px;
 
 }
-.orderPlacement {
-    font-size: 20px;
-    display: flex;
-    padding-top: 1%;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: center;
-    padding-bottom: 5%;
-}
-#submit {
-    border-radius: 15px;
-    margin-bottom: 7%;
+.button{
+    color: black;
 }
