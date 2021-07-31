@@ -37,19 +37,22 @@ color: white;
 .gallery h1{
  font-size: 25px; 
  color: white; 
- font-style: italic; 
+ font-style: italic;
+ font-weight: 600; 
+}
+.gallery h2{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 50;
+    margin-left: 80px;
 }
 .gallery{
     margin-left: 100px;
     margin-top: 40px;
+    display: flex;
 }
 a{
-    text-decoration: none;
     color: white;
-}
-a :hover{
-    color: white;
-    font-size:30px;
 }
 
 div{
