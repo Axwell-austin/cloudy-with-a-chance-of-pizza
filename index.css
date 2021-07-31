@@ -81,17 +81,47 @@ body{
     padding: 30px;
     text-align: center;
 }
-.footer{
-    text-align: center;
-    color: #9f642e;
-    background-color: grey;
-    width: 350px;
-    margin-left: 530px;
-    border-radius: 100px;
-}
 #pic{
     text-align: center;
 }
 #pic img{
     border-radius: 100%;
+}
+.lastPart img{
+margin-left: 230px;
+justify-content: center;
+border-radius: 100%;;
+}
+#pizzaTopping {
+    display: flex;
+    align-items: column;
+}
+
+#pizzaSize {
+    display: flex;
+    align-items: column;
+}
+#btn {
+    margin-left: 55%;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 30px;
+}
+.card-body{
+    width: 700px;
+    margin-left: 100px;
+
+}
+.orderPlacement {
+    font-size: 20px;
+    display: flex;
+    padding-top: 1%;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+#submit {
+    border-radius: 15px;
+    margin-bottom: 7%;
 }
